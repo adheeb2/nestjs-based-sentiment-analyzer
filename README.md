@@ -63,3 +63,7 @@ A robust backend **AI-powered Sentiment Analyzer API** built using **NestJS (Nod
 - 📢 Marketing feedback monitoring
 
 - 🧾 Customer support mood detection
+
+## 👨‍💻 Author
+
+Made with 💻 by Adheeb Anvar
