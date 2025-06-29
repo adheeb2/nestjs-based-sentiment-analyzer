@@ -29,9 +29,31 @@ A robust backend **AI-powered Sentiment Analyzer API** built using **NestJS (Nod
 
 ---
 
-<pre> ### 📂 Folder Structure <code> sentiment_analyzer/ ├── app/ # 🧠 Python ML microservice │ ├── __init__.py │ ├── sentiment.py # analyze_sentiment logic │ ├── main.py # CLI script to be called from NestJS │ └── requirements.txt # Python dependencies │ ├── backend/ # ⚙️ NestJS API server │ ├── src/ │ │ ├── main.ts │ │ ├── app.module.ts │ │ └── modules/ │ │ └── sentiment/ │ │ ├── sentiment.controller.ts │ │ ├── sentiment.service.ts │ │ └── dto/ │ ├── test/ │ ├── package.json │ ├── tsconfig.json │ └── nest-cli.json │ ├── venv/ # 🐍 Python virtual environment (not tracked) │ ├── .gitignore # Ignore unnecessary files ├── README.md # SEO-rich project documentation └── LICENSE # MIT or preferred license </code> </pre>
-
----
+sentiment_analyzer/
+├── app/ # 🧠 Python ML microservice
+│ ├── **init**.py
+│ ├── sentiment.py # analyze_sentiment logic
+│ ├── main.py # CLI script to be called from NestJS
+│ └── requirements.txt # Python dependencies
+│
+├── backend/ # ⚙️ NestJS API server
+│ ├── src/
+│ │ ├── main.ts
+│ │ ├── app.module.ts
+│ │ └── modules/
+│ │ └── sentiment/
+│ │ ├── sentiment.controller.ts
+│ │ ├── sentiment.service.ts
+│ │ └── dto/
+│ ├── test/
+│ ├── package.json
+│ ├── tsconfig.json
+│ └── nest-cli.json
+│
+├── venv/ # 🐍 Python virtual environment (not tracked)
+├── .gitignore # Ignore unnecessary files
+├── README.md # SEO-rich project documentation
+└── LICENSE # MIT or preferred license
 
 ## 🧪 Sample Usage via Postman
 
