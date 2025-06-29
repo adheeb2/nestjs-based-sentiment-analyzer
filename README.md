@@ -29,34 +29,4 @@ A robust backend **AI-powered Sentiment Analyzer API** built using **NestJS (Nod
 
 ---
 
-## 📂 Folder Structure
-
-sentiment_analyzer/ # ✅ Git repo root
-│
-├── app/ # 🧠 Python ML microservice
-│ ├── **init**.py # (optional)
-│ ├── sentiment.py # contains analyze_sentiment logic
-│ ├── main.py # CLI/entry script to be called from NestJS
-│ └── requirements.txt # Python dependencies (transformers, etc.)
-│
-├── backend/ # ⚙️ NestJS API server
-│ ├── src/
-│ │ ├── main.ts # NestJS entry point
-│ │ ├── app.module.ts # Root module
-│ │ └── modules/
-│ │ └── sentiment/
-│ │ ├── sentiment.controller.ts
-│ │ ├── sentiment.service.ts
-│ │ └── dto/ # (Optional: for validation schemas)
-│ ├── test/ # Default test setup
-│ ├── package.json
-│ ├── tsconfig.json
-│ └── nest-cli.json
-│
-├── venv/ # 🐍 Python virtual environment (not tracked)
-│ └── bin/, lib/, etc.
-│
-├── .gitignore # Ignore unneeded files
-├── README.md # SEO-rich project overview
-└── LICENSE # Open source license (MIT, etc.)
-Z
+<pre> ### 📂 Folder Structure <code> sentiment_analyzer/ ├── app/ # 🧠 Python ML microservice │ ├── __init__.py │ ├── sentiment.py # analyze_sentiment logic │ ├── main.py # CLI script to be called from NestJS │ └── requirements.txt # Python dependencies │ ├── backend/ # ⚙️ NestJS API server │ ├── src/ │ │ ├── main.ts │ │ ├── app.module.ts │ │ └── modules/ │ │ └── sentiment/ │ │ ├── sentiment.controller.ts │ │ ├── sentiment.service.ts │ │ └── dto/ │ ├── test/ │ ├── package.json │ ├── tsconfig.json │ └── nest-cli.json │ ├── venv/ # 🐍 Python virtual environment (not tracked) │ ├── .gitignore # Ignore unnecessary files ├── README.md # SEO-rich project documentation └── LICENSE # MIT or preferred license </code> </pre>
