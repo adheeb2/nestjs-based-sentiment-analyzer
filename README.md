@@ -29,8 +29,6 @@ A robust backend **AI-powered Sentiment Analyzer API** built using **NestJS (Nod
 
 ---
 
----
-
 ## 🧪 Sample Usage via Postman
 
 - **Method:** `POST`
@@ -54,8 +52,6 @@ A robust backend **AI-powered Sentiment Analyzer API** built using **NestJS (Nod
 
 ---
 
----
-
 ## 🧠 Example Use Cases
 
 - 📝 Product review scoring
@@ -68,10 +64,6 @@ A robust backend **AI-powered Sentiment Analyzer API** built using **NestJS (Nod
 
 ---
 
----
-
 ## 👨‍💻 Author
 
 ## Made with 💻 by Adheeb Anvar
-
----
